@@ -1,0 +1,19 @@
+#OuterBox{
+    
+    display:grid;
+   grid-template-columns: repeat(3,1fr);
+  
+  
+   
+}
+
+#OuterBox > * {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+   
+}
+#OuterBox > button {
+    color: red;
+}
